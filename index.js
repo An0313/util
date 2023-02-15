@@ -8,3 +8,7 @@ export { default as au_timeStampToDate } from './src/timeStampToDate';
 export { default as au_telDesensitization } from './src/telDesensitization';
 export { default as au_queryStrToObj } from './src/queryStrToObj';
 export { default as au_objToQueryStr } from './src/objToQueryStr';
+export { default as au_isAndroid } from './src/isAndroid.js';
+export { default as au_isIOS } from './src/isIOS.js';
+export { default as au_isWx } from './src/isIOS.js';
+export { default as au_getBrowser } from './src/getBrowser.js';

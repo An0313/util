@@ -99,3 +99,31 @@ au_sessionStorage.set('key', {...val}) // (key: string, val: Object) => void
 // 获取
 au_sessionStorage.get(key) // (key: string) => Object | null
 ```
+
+## 客户端
+
+### 是否是安卓
+```javascript
+import {au_isAndroid} from '@ahg0313/utils'
+
+au_isAndroid()
+```
+### 否是ios
+```javascript
+import {au_isIOS} from '@ahg0313/utils'
+
+au_isIOS()
+```
+### 否是 微信
+```javascript
+import {au_isWx} from '@ahg0313/utils'
+
+au_isWx()
+```
+
+### 获取客户端平台
+```javascript 
+import {au_getBrowser} from '@ahg0313/utils'
+
+au_getBrowser() // {iPhone: boolean, webApp: boolean, qq: boolean, trident: boolean, gecko: boolean, weixin: boolean, android: boolean, mobile: boolean, iPad: boolean, ios: boolean, presto: boolean, webKit: boolean}
+```
